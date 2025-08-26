@@ -1,50 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
+    /* Suas variáveis de cor */
     --red: #E3646E;
-    --purple: #BB72E9 ;
+    --purple: #BB72E9;
     --blue: #3996DB;
     --green: #82BC4F;
     --yellow: #EABD5F;
-    --gray-100: #E2E4E9 ;
+    --gray-100: #E2E4E9;
     --gray-200: #C0C4CE;
     --gray-300: #878EA1;
     --gray-400: #292C34;
     --gray-500: #16181D;
     --gray-600: #0D0E11;
-    
-    --font-family:"Asap", sans-serif;
-    --title-lg: 56px/120% bold var(--font-family);
-    --title-md: 24x/120% bold var(--font-family);
-    --title-sm: 16px/120% bold var(--font-family);
 
-    --font-family-sub:"Inconsolata", monospace;
-    --legenda: 20px/120% var(--font-family-sub);
+    --font-family: "Asap", sans-serif;
+
+    --title-lg: bold 56px/120% var(--font-family);
+    --title-md: bold 24px/120% var(--font-family);
+    --title-sm: bold 16px/120% var(--font-family);
+
+    --font-family-sub: "Inconsolata", monospace;
+    --sub: 20px/120% var(--font-family-sub);
 
     --font-family-text: "Maven Pro", sans-serif;
     --text-md: 16px/140% var(--font-family-text);
     --text-sm: 14px/140% var(--font-family-text);
 }
 
-body{
+body {
+    font: var(--text-md);
+    background-color: var(--gray-400);
+    color: var(--gray-300);
+}
+
+.text-sm{
+    font: var(--text-sm);
+}
+.text-md{
     font: var(--text-md);
 }
 
-a{
+.sub{
+    font: var(--sub);
+}
+h1{
+    font: var(--title-lg);
+}
+a {
     text-decoration: none;
     color: inherit;
-}
-
-.container{
-    display: grid;
-    place-items: center;
-    justify-content: center;
-    background-image: url(../assets/img/header.png);
-width: 1366px;
-    height: 750px;
-    object-fit: cover;
 }

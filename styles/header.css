@@ -1,0 +1,84 @@
+header{
+    background-image: url(../assets/img/header.png);
+    height:750px;
+    width:1366px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    place-content: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    margin-bottom: 80px;
+}
+
+.app{
+    display: flex;
+    border-radius: 32px;
+    background-color: var(--gray-400);
+    padding: 8px 16px ; 
+    align-items: center;
+    gap: 8px;
+    color: var(--gray-200);
+    font: var(--text-md);
+
+}
+#icons{
+    display: flex;
+    place-content: center;
+    gap: 16px;
+    height: 40px;
+    width: 754px;
+    margin: auto;
+}
+h1{
+    color: var(--gray-100);
+    margin-bottom: 20px;
+}
+.sub{
+    color: var(--gray-200);
+    margin-bottom: 8px;
+}
+.text-md{
+    color: var(--gray-300);
+}
+#nome{
+    color: var(--red);
+}
+
+/* 1. Estilos comuns aplicados somente aos IDs dos ícones */
+#github, #html, #css, #js, #react, #node {
+    height: 24px;
+    width: 24px;
+    padding: 4px;
+    border-radius: 4px;
+    box-sizing: content-box;
+}
+
+/* 2. Cores de fundo específicas para cada ID */
+#github {
+    background-color: var(--gray-200);
+}
+
+#html {
+    background-color: var(--red);
+}
+
+#css {
+    background-color: var(--blue);
+}
+
+#js {
+    background-color: var(--yellow);
+}
+
+#react {
+    background-color: var(--blue);
+}
+
+#node {
+    background-color: var(--green);
+}
