@@ -48,8 +48,6 @@ h1{
 #nome{
     color: var(--red);
 }
-
-/* 1. Estilos comuns aplicados somente aos IDs dos ícones */
 #github, #html, #css, #js, #react, #node {
     height: 24px;
     width: 24px;
@@ -58,7 +56,6 @@ h1{
     box-sizing: content-box;
 }
 
-/* 2. Cores de fundo específicas para cada ID */
 #github {
     background-color: var(--gray-200);
 }
@@ -81,4 +78,11 @@ h1{
 
 #node {
     background-color: var(--green);
+}
+#seta{
+    padding-top: 94px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
 }

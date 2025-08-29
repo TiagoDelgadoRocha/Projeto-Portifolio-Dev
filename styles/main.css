@@ -1,0 +1,27 @@
+main{
+    background-color: var(--gray-500);
+    height:917px ;
+    width: 1366px;
+}
+
+.texto{
+    display: grid;
+    place-content: center;
+    margin: auto;
+    place-items: center;
+    padding-bottom: 56px;
+    padding-top: 72px;
+}
+.grid{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 24px;
+}
+.items{
+    width: 330px;
+    height: 280px;
+    display: grid;
+    justify-content: space-between;
+    
+}
